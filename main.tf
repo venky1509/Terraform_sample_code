@@ -1,5 +1,5 @@
 resource "aws_instance" "ec2instance" {
-  ami                         = "ami-028eb925545f314d6"
+  ami                         = "ami-0b026d11830afcbac"
   instance_type               = "t2.micro"
   subnet_id                   = "subnet-0d8a5b1b33899449e"
   associate_public_ip_address = true
